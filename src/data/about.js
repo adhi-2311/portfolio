@@ -1,0 +1,1 @@
+export const about="A final year Computer Science student at IIIT Bhubaneswar who loves to spend hours solving DSA problems and building minimalistic Web Apps. "
