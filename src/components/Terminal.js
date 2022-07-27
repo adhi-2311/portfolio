@@ -13,7 +13,7 @@ const Terminal = () => {
     >
       <Flex justify={"center"}>
         <Box
-          width={"70vw"}
+          width={"80%"}
           p={4}
           border={"1px"}
           borderColor={"#e4e3e5"}
@@ -29,16 +29,16 @@ const Terminal = () => {
       <Flex justify={"center"}>
         <Box
           borderBottomRadius={"0.6em"}
-          height={"60vh"}
-          width={"70vw"}
+          height={"25em"}
+          width={"80%"}
           bg={useColorModeValue("#88B8BD", "gray.700")}
           p={4}
           border={"1px"}
           borderColor={"#88B8BD"}
           display={"flex"}
         >
-          <Flex width={"70vw"}>
-            <Text fontFamily={"monospace"} fontSize="1.4vw">
+          <Flex>
+            <Text fontFamily={"monospace"} fontSize="1vw">
               {infos.map((info) => {
                 return (
                   <>
