@@ -4,7 +4,7 @@ const TerminalEntry = ({ command, output }) => {
   return (
     <>
       <Text color={useColorModeValue("black", "#88B8BD")} display="flex" flexWrap={"wrap"}>{command}</Text>
-      <Text color={useColorModeValue("purple.800", "yellow.300")} display="flex" flexWrap={"wrap"}>
+      <Text color={useColorModeValue("purple.800", "yellow.300")} wordBreak="break-word" wordWrap="break-word" whiteSpace={"pre-wrap"}>
         {output}
       </Text>
     </>
