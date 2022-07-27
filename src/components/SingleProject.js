@@ -14,7 +14,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { RiExternalLinkFill } from "react-icons/ri";
 
 const SingleProject = ({ project }) => {
-  const { title, link, sourceCode, techStack, about, imageSrc } = project;
+  const { title, link, sourceCode, techStack, about} = project;
   return (
     <Flex justifyContent="center" paddingLeft={"3em"} paddingRight={"3em"}>
       <Box
@@ -54,7 +54,8 @@ const SingleProject = ({ project }) => {
             })}
           </ButtonGroup>
 
-          <ButtonGroup>
+          <ButtonGroup display={"flex"}
+            flexWrap={"wrap"} rowGap="0.5em">
             <Link
               _hover={{
                 textDecoration: "none",
