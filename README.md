@@ -2,4 +2,4 @@
 - React.js 
 - Chakra UI
 
-## [Live Demo](https://adhisikha.netlify.app/)
+## [Check out](https://sazzy.tech/) 
