@@ -13,7 +13,7 @@ const Terminal = () => {
     >
       <Flex justify={"center"}>
         <Box
-          width={"56em"}
+          width={"70vw"}
           p={4}
           border={"1px"}
           borderColor={"#e4e3e5"}
@@ -29,8 +29,8 @@ const Terminal = () => {
       <Flex justify={"center"}>
         <Box
           borderBottomRadius={"0.6em"}
-          height={"28em"}
-          width={"56em"}
+          height={"40vh"}
+          width={"70vw"}
           bg={useColorModeValue("#88B8BD", "gray.700")}
           p={4}
           border={"1px"}
