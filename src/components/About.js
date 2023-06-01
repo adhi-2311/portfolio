@@ -32,7 +32,7 @@ const About = () => {
           <Text>{about}</Text>
           <Link
             href={
-              "https://drive.google.com/file/d/1vckpE-6EQvMwvrRCNhme5q-EbTDRe9pH/view?usp=sharing"
+              "https://drive.google.com/file/d/1-JhRU3rsn-gr4HPTQBV9mxfY6drsYSlv/view?usp=sharing"
             }
             isExternal
             _hover={{
